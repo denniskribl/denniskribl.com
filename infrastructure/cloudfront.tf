@@ -23,6 +23,8 @@ resource "aws_cloudfront_distribution" "cdn" {
     cached_methods   = ["HEAD", "GET"]
     target_origin_id = aws_s3_bucket.this.id
     compress         = true
+    min_ttl          = 0
+    max_ttl          = 31622400
     default_ttl      = 31622400
 
     forwarded_values {
