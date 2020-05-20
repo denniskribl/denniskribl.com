@@ -1,0 +1,32 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+    - uses: kciter/terraform-apply-for-aws-action@v3
+      with:
+        access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        region: eu-central-1
+        path: infrastructure
+
+    - name: build
+      uses: actions/setup-node@v1
+      with:
+          node-version: '10.x'
+    - run: yarn install
+    - run: yarn build
+
+    - name: do the aws stuff
+      uses: chrislennon/action-aws-cli@v1.1
+    - run: bash .github/workflows/aws-related-stuff.sh denniskribl-com-src
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
