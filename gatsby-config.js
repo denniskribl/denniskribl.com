@@ -104,7 +104,7 @@ module.exports = {
       {
         name: "Kubernetes",
         level: "70",
-        experience: "1 years",
+        experience: "1 year",
       },
       {
         name: "Javascript",
