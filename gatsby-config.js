@@ -161,6 +161,35 @@ module.exports = {
         head: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `denniskribl.com`,
+        short_name: `denniskribl`,
+        icons: [
+          {
+            src: "/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png"
+          },
+          {
+            src: "/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png"
+          }
+        ],
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#4baea0`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/skills`, `/experience`, `/interests`, `/`],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-less`,
