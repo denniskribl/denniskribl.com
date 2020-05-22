@@ -67,7 +67,7 @@ module.exports = {
         when: "2014-2017",
         company: "Immowelt AG",
         where: "Nürnberg, Germany",
-        moreInfo: "Apprenticeship and beginning of my journey",
+        moreInfo: "Apprenticeship and beginning of his journey",
       },
     ],
     skills: [
@@ -118,11 +118,11 @@ module.exports = {
       },
     ],
     interests: [
-      "Trying out the latest and hottest tech",
       "Web and mobile application programming",
+      "Trying out the latest and coolest tech",
       "Information security",
       "Gaming",
-      "Animes & TV shows",
+      "Anime & TV shows",
       "Languages",
     ],
     //available_themes: ["great-gatsby", "master-yoda", "wonder-woman", "darth-vader", "luke-lightsaber"],
