@@ -29,7 +29,7 @@ module.exports = {
         degree: "IT specialist",
         major: "systems integration",
         when: "2014-2018",
-        school: "Immowelt AG",
+        school: "immowelt AG",
         where: "Nürnberg, Germany",
         moreInfo: `<p>Apprenticeship as IT specialist/systems integration with main emphasis on on-premises Linux systems</p>`,
       },
@@ -44,28 +44,28 @@ module.exports = {
       {
         role: "DevOps Engineer",
         when: "2018-Present",
-        company: "Immowelt AG",
+        company: "immowelt AG",
         where: "Nürnberg, Germany",
-        moreInfo: `Enhancing the DevOps culture and mindset at Immowelt. Teaching cross-functional 
+        moreInfo: `Enhancing the DevOps culture and mindset at immowelt. Teaching cross-functional 
                    teams the key fundamentals of DevOps to actively reduce dependencies across 
                    the company and build fully independent product teams.
-                   Currently migrating and re-platforming the on-premises infrastructure/services powering Immowelt 
+                   Currently migrating and re-platforming the on-premises infrastructure/services powering immowelt 
                    to AWS and building innovative products for the end-user powered by the latest and coolest tech.
         `,
       },
       {
         role: "Linux system administrator",
         when: "2017-2018",
-        company: "Immowelt AG",
+        company: "immowelt AG",
         where: "Nürnberg, Germany",
-        moreInfo: `Administrating the on-premises Linux infrastructure at Immowelt. 
+        moreInfo: `Administrating the on-premises Linux infrastructure at immowelt. 
                   Leveraging automation tools to build highly scalable and resilient 
-                  on-premises infrastructure which powers some core components of Immowelt`,
+                  on-premises infrastructure which powers some core components of immowelt`,
       },
       {
         role: "IT Specialist/Systems integration",
         when: "2014-2017",
-        company: "Immowelt AG",
+        company: "immowelt AG",
         where: "Nürnberg, Germany",
         moreInfo: "Apprenticeship and beginning of his journey",
       },
