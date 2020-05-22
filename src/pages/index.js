@@ -13,7 +13,7 @@ export default props => {
     }
   `)
   return (
-    <Layout pageTitle="About" pageDescription="Learn more about me">
+    <Layout pageTitle="About" pageDescription="Learn something about me and my tech journey">
       <div dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.about }} />
     </Layout>
   )

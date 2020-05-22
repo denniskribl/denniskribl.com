@@ -5,7 +5,7 @@ const Footer = props => {
     <div id="footer">
       <div className="row">
         <div className="column">
-          <p>with ♥ by Dennis Kribl</p>
+          <p>Made with ♥ by Dennis Kribl</p>
         </div>
       </div>
     </div>

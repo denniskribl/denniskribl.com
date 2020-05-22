@@ -33,7 +33,7 @@ export default props => {
   return (
     <Layout
       pageTitle="Experience"
-      pageDescription="Learn more about my experience"
+      pageDescription="The experience I have already made"
     >
       {experience}
     </Layout>

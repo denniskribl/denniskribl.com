@@ -48,7 +48,7 @@ export default props => {
     />
   ))
   return (
-    <Layout pageTitle="Skills" pageDescription="Learn more about my skills">
+    <Layout pageTitle="Skills" pageDescription="My Skills">
       {skills}
     </Layout>
   )

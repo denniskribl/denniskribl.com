@@ -18,7 +18,7 @@ export default props => {
   return (
     <Layout
       pageTitle="Interests"
-      pageDescription="Learn more about my interests and hoppies"
+      pageDescription="My Interests and Hobbies"
     >
       <ul>{interests}</ul>
     </Layout>
