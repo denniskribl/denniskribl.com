@@ -15,13 +15,24 @@ module.exports = {
     ],
     about: `
       <p>
-         Dennis tech journey began in 2014 at the age of seventeen as an trainee IT specialist for system integration.<br>
-         Already during his apprenticeship he learned to live the principles of the DevOps culutre. A 
-         passion for modern technology, automation and the mindeset which accompanies this culture evolved. <br><br> 
-         Today Dennis is working on bringing product teams closer to the DevOps world, teaching the key principles
-         to build truly independent, cross functional teams.<br> On the technical side, he uses a wide range of DevOps tools
-         and actively helps developing innovative products with his scrum team. The goal he set himself is to blur the
-         line between operations and development and unite both worlds to get the best out of it.
+         My tech journey began in 2014 at the age of seventeen.
+         At this time I started my apprenticeship as an IT specialist for systems integration 
+         with the main emphasis on linux system administration.<br>
+         Already during my apprenticeship I've learned to live the principles of the 
+         DevOps culture.<br>
+         
+         A passion for modern technology, automation and the mindset which accompanies this 
+         culture evolved. <br><br> 
+         
+         Today I am working on bringing product teams closer to the DevOps world, teaching the key 
+         principles and technical background to build truly independent, fully enabled, 
+         cross functional teams.<br><br>
+         
+         On the technical side, I am making great use of various DevOps tools
+         and actively help developing innovative products together with my scrum team.<br><br>
+         
+         The goal I've set myself is to blur the lines between operations and development to unite
+         both worlds and get the best result out of it
      </p>
       `,
     education: [
@@ -30,44 +41,55 @@ module.exports = {
         major: "systems integration",
         when: "2014-2018",
         school: "immowelt AG",
-        where: "Nürnberg, Germany",
+        where: "Nuremberg, Germany",
         moreInfo: `<p>Apprenticeship as IT specialist/systems integration with main emphasis on on-premises Linux systems</p>`,
       },
       {
         degree: "Intermediate school-leaving certificate",
         when: "2007-2014",
         school: "Geschwister-Scholl-Realschule",
-        where: "Nürnberg, Germany",
+        where: "Nuremberg, Germany",
       },
     ],
     experience: [
       {
         role: "DevOps Engineer",
         when: "2018-Present",
-        company: "immowelt AG",
-        where: "Nürnberg, Germany",
-        moreInfo: `Enhancing the DevOps culture and mindset at immowelt. Teaching cross-functional 
-                   teams the key fundamentals of DevOps to actively reduce dependencies across 
-                   the company and build fully independent product teams.
-                   Currently migrating and re-platforming the on-premises infrastructure/services powering immowelt 
-                   to AWS and building innovative products for the end-user powered by the latest and coolest tech.
-        `,
+        company: "Immowelt AG",
+        where: "Nuremberg, Germany",
+        moreInfo: `
+          <ul class="intext-ul">
+              <li class="intext-list">Enhancing the DevOps culture and mindset at immowelt.</li>
+              <li class="intext-list">Teaching cross-functional teams the key fundamentals of DevOps to actively reduce dependencies across 
+              the company and build fully independent product teams.</li>
+              <li class="intext-list">Currently migrating and re-platforming the on-premises infrastructure/services powering immowelt 
+              to AWS and building innovative products for the end-user powered by the latest and coolest tech.</li>
+          </ul>
+        `
       },
       {
         role: "Linux system administrator",
         when: "2017-2018",
-        company: "immowelt AG",
-        where: "Nürnberg, Germany",
-        moreInfo: `Administrating the on-premises Linux infrastructure at immowelt. 
-                  Leveraging automation tools to build highly scalable and resilient 
-                  on-premises infrastructure which powers some core components of immowelt`,
+        company: "Immowelt AG",
+        where: "Nuremberg, Germany",
+        moreInfo: `
+          <ul class="intext-ul">
+              <li class="intext-list">Administrating the on-premises Linux infrastructure at immowelt.</li>
+              <li class="intext-list">Leveraging automation tools to build highly scalable and resilient 
+                    on-premises infrastructure which powers some core components of immowelt</li>
+          </ul>
+        `
       },
       {
         role: "IT Specialist/Systems integration",
         when: "2014-2017",
-        company: "immowelt AG",
-        where: "Nürnberg, Germany",
-        moreInfo: "Apprenticeship and beginning of his journey",
+        company: "Immowelt AG",
+        where: "Nuremberg, Germany",
+        moreInfo: `
+          <ul class="intext-ul">
+              <li class="intext-list">Apprenticeship and beginning of my journey</li>
+          </ul>
+        `,
       },
     ],
     skills: [
