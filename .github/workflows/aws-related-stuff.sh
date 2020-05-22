@@ -6,7 +6,7 @@ CF_ID=$(aws cloudfront list-distributions --output text --query "DistributionLis
 # Sync all files except for service-worker and index
 echo "Uploading files to $S3_BUCKET_NAME..."
 aws s3 sync public/ s3://$S3_BUCKET_NAME/ \
-  --exclude "*.map"
+  --exclude "*.map" \
   --exclude index.html \
   --cache-control max-age=31622400,public
 
