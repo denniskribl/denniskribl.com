@@ -104,6 +104,11 @@ module.exports = {
         experience: "3 years",
       },
       {
+        name: "App Development with Swift",
+        level: "1000",
+        experience: "1 day",
+      },
+      {
         name: "Serverless Cloud architecture",
         level: "80",
         experience: "2 years",
