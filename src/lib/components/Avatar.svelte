@@ -1,0 +1,15 @@
+<script>
+	import me from '$lib/images/me.jpg';
+</script>
+
+<div class="avatar">
+	<div class="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 w-64">
+		<img alt="me" src={me} />
+	</div>
+</div>
+
+<style>
+	.avatar {
+		view-transition-name: avatar;
+	}
+</style>
