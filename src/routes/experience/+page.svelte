@@ -2,6 +2,8 @@
 	import Experience from '../../lib/components/Experience.svelte';
 </script>
 
-<div>
-	<Experience />
-</div>
+<svelte:head>
+	<title>Experience</title>
+</svelte:head>
+
+<Experience />

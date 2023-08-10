@@ -2,6 +2,8 @@
 	import About from '../../lib/components/About.svelte';
 </script>
 
-<div>
-	<About />
-</div>
+<svelte:head>
+	<title>About</title>
+</svelte:head>
+
+<About />
