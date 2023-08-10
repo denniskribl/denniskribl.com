@@ -19,11 +19,11 @@ body {
 }
 
 @keyframes slide-from {
-    from { transform: translateY(30px); }
+    from { transform: translateY(80px); }
 }
 
 @keyframes slide-to {
-    to { transform: translateY(-30px); }
+    to { transform: translateY(-80px); }
 }
 
 ::view-transition-old(content) {

@@ -27,14 +27,23 @@
 		</div>
 	</div>
 	<div class="hero flex-1 bg-base-200">
-		<div class="hero-content flex-col lg:flex-row gap-16 w-full">
-			<div class="lg:w-1/4">
+		{#if $page.url.pathname === '/'}
+			<div class="hero-content flex-col gap-16 w-full" class:lg:flex-row={$page.url.pathname !== '/'}>
 				<Avatar />
+				<div class="content" >
+					<slot />
+				</div>
 			</div>
-			<div class="lg:w-1/2 content">
-				<slot />
+		{:else}
+			<div class="hero-content flex-col gap-16 w-full lg:flex-row">
+				<div class="lg:w-1/4">
+					<Avatar />
+				</div>
+				<div class="lg:w-1/2 content" >
+					<slot />
+				</div>
 			</div>
-		</div>
+		{/if}
 	</div>
 </div>
 

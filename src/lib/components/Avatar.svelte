@@ -7,3 +7,9 @@
 		<img alt="me" src={me} />
 	</div>
 </div>
+
+<style>
+	.avatar {
+		view-transition-name: avatar;
+	}
+</style>
