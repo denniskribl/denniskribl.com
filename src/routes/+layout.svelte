@@ -28,7 +28,7 @@
 	</div>
 	<div class="hero flex-1 bg-base-200">
 		{#if $page.url.pathname === '/'}
-			<div class="hero-content flex-col gap-16 w-full" class:lg:flex-row={$page.url.pathname !== '/'}>
+			<div class="hero-content flex-col gap-16 w-full">
 				<Avatar />
 				<div class="content" >
 					<slot />
