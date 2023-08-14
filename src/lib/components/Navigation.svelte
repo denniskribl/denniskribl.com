@@ -8,3 +8,9 @@
 	<a href="/experience" class="tab" class:tab-active={activeTab === 2}>Experience</a>
 	<a href="/contact" class="tab" class:tab-active={activeTab === 3}>Contact</a>
 </div>
+
+<style>
+	.tabs {
+		view-transition-name: nav;
+	}
+</style>
