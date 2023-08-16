@@ -4,6 +4,11 @@
 	import Avatar from "../lib/components/Avatar.svelte";
 	import Navigation from "../lib/components/Navigation.svelte";
 	import { page } from '$app/stores';
+	import Particles from "../lib/components/Particles.svelte";
+	import { useMediaQuery } from 'svelte-breakpoints';
+
+	const isMobile = useMediaQuery('(max-width: 600px)');
+
 	preparePageTransition();
 
 	const activeTab = (path) => {
@@ -20,7 +25,14 @@
 		}
 	}
 </script>
-<div class="w-full h-full flex flex-col">
+
+
+<div class="w-full h-full flex flex-col z-10">
+	{#if $isMobile}
+		<Particles size={1} count={70}/>
+	{:else}
+		<Particles />
+	{/if}
 	<div class="navbar bg-base-200">
 		<div class="flex flex-1 justify-center items-center">
 			<Navigation activeTab={activeTab($page.url.pathname)}/>

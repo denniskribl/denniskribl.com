@@ -1,3 +1,5 @@
+// todo: refactor this to use the onNavigation hook once it landed in sveltekit (https://github.com/sveltejs/kit/pull/9605)
+
 import { beforeNavigate } from '$app/navigation';
 import { navigating } from '$app/stores';
 import { onDestroy } from 'svelte';
