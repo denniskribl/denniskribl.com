@@ -1,5 +1,5 @@
 <script>
-	import me from '$lib/images/me.jpg';
+	import me from '$lib/images/me.jpg?w=256&format=avif';
 </script>
 
 <div class="avatar">
