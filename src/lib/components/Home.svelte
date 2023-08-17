@@ -4,4 +4,3 @@
 		Cloud Site Reliability Engineer based in Nuremberg, Germany.
 	</p>
 </div>
-

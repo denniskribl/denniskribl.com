@@ -7,26 +7,26 @@
 
 	const experience: Experience[] = [
 		{
-			title: "Cloud Site Reliability Engineer",
-			at: "???",
-			duration: "2023 - present",
+			title: 'Cloud Site Reliability Engineer',
+			at: '???',
+			duration: '2023 - present'
 		},
 		{
-			title: "DevOps Engineer / Full Stack Engineer",
-			at: "immowelt / AVIV Group",
-			duration: "2018 - 2023",
+			title: 'DevOps Engineer / Full Stack Engineer',
+			at: 'immowelt / AVIV Group',
+			duration: '2018 - 2023'
 		},
 		{
-			title: "Linux System Administrator",
-			at: "immowelt",
-			duration: "2017 - 2018",
+			title: 'Linux System Administrator',
+			at: 'immowelt',
+			duration: '2017 - 2018'
 		},
 		{
-			title: "IT specialist/systems integration apprentice",
-			at: "immowelt",
-			duration: "2014 - 2017",
+			title: 'IT specialist/systems integration apprentice',
+			at: 'immowelt',
+			duration: '2014 - 2017'
 		}
-	]
+	];
 </script>
 
 <div class="w-full overflow-y-auto">
