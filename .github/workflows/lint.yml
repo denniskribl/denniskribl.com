@@ -1,4 +1,5 @@
 name: deploy prod
+on: [push, fork]
 jobs:
   lint:
     runs-on: ubuntu-latest
