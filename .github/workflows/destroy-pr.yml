@@ -1,0 +1,34 @@
+name: destroy pr env
+on:
+  pull_request:
+    types: [closed]
+jobs:
+  destroy-pr-env:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install
+      - name: Deploy
+        run: yarn sst remove --stage pr-${{ github.event.number }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  delete-gh-env:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # Points to a recent commit instead of `main` to avoid supply chain attacks. (The latest tag is very old.)
+      - name: Get GitHub App token
+        uses: navikt/github-app-token-generator@a3831f44404199df32d8f39f7c0ad9bb8fa18b1c
+        id: get-token
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_SECRET }}
+      - uses: strumwolf/delete-deployment-environment@v2
+        with:
+          token: ${{ steps.get-token.outputs.token }}
+          environment: pr-${{ github.event.number }}

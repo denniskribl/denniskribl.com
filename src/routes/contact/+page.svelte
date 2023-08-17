@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Contact</title>
+	<title>Contact</title>
 </svelte:head>
 
 <Contact />
