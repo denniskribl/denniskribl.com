@@ -1,14 +1,13 @@
-name: deploy prod
+name: deploy pr environment
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [opened, reopened, synchronize]
 jobs:
-  deploy-prod:
+  deploy-pr-env:
     runs-on: ubuntu-latest
     environment:
-      name: prod
-      url: https://denniskribl.com
+      name: pr-${{ github.event.number }}
+      url: https://pr-${{ github.event.number }}.denniskribl.com
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -17,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Deploy
-        run: yarn sst deploy --stage prod
+        run: yarn sst deploy --stage pr-${{ github.event.number }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
