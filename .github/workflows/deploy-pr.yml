@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pr-${{ github.event.number }}
-      url: pr-${{ github.event.number }}.denniskribl.com
+      url: https://pr-${{ github.event.number }}.denniskribl.com
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
