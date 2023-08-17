@@ -2,7 +2,7 @@ import type { SSTConfig } from 'sst';
 import { SvelteKitSite } from 'sst/constructs';
 
 export default {
-	config(_input) {
+	config() {
 		return {
 			name: 'denniskriblcom',
 			region: 'us-east-1'

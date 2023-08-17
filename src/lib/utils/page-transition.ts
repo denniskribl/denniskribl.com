@@ -8,7 +8,7 @@ function getNavigationStore() {
 	const navigation = {
 		...navigating,
 		complete: async () => {
-			await new Promise((res, _) => {
+			await new Promise((res) => {
 				callbacks.push(res);
 			});
 		}
