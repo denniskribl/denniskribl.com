@@ -4,6 +4,7 @@ on:
     types: [opened, reopened, synchronize]
 jobs:
   deploy-pr-env:
+    if: ${{ github.actor != 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     environment:
       name: pr-${{ github.event.number }}
