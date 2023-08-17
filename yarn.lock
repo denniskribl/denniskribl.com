@@ -6185,10 +6185,10 @@ svelte-hmr@^0.15.3:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
 
-svelte-kit-sst@^2.23.14:
-  version "2.23.14"
-  resolved "https://registry.yarnpkg.com/svelte-kit-sst/-/svelte-kit-sst-2.23.14.tgz#bb661c8fe43201ac5b8fa0c9e61734e22ba86c37"
-  integrity sha512-HUtj/VCTUuFlx/gCbfGLXRP3rI+9oQjqPBpvVoNp40za+gotJBhq3EJNZfekqo5RCZgTRNeIayQ/LTxPgYyEuQ==
+svelte-kit-sst@^2.24.7:
+  version "2.24.7"
+  resolved "https://registry.yarnpkg.com/svelte-kit-sst/-/svelte-kit-sst-2.24.7.tgz#bd49b5b5d5a8facc91f564975ccd6d0520b79b2e"
+  integrity sha512-DNS94N6rpqz+AdlfbOw5Q4IQFDw/07i7wqOJJ+Sufdvsb3EThYOT53okNnqfw9K44xJDFL8mfvGPuz0EhYamIA==
 
 svelte-preprocess@^5.0.4:
   version "5.0.4"
