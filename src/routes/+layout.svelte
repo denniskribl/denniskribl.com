@@ -1,10 +1,10 @@
 <script>
 	import '$lib/global.css';
 	import { onNavigate } from '$app/navigation';
-	import Avatar from '../lib/components/Avatar.svelte';
-	import Navigation from '../lib/components/Navigation.svelte';
+	import Avatar from '$lib/components/Avatar.svelte';
+	import Navigation from '$lib/components/Navigation.svelte';
 	import { page } from '$app/stores';
-	import Particles from '../lib/components/Particles.svelte';
+	import Particles from '$lib/components/Particles.svelte';
 	import { useMediaQuery } from 'svelte-breakpoints';
 
 	const isMobile = useMediaQuery('(max-width: 600px)');
@@ -33,7 +33,7 @@
 
 <div class="w-full h-full flex flex-col z-10">
 	{#if $isMobile}
-		<Particles size={1} count={70} />
+		<Particles size={1} count={80} />
 	{:else}
 		<Particles />
 	{/if}

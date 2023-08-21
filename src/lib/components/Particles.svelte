@@ -13,69 +13,8 @@
 		ParticlesComponent = module.default;
 	});
 
-	let particlesConfig = {
-		detectRetina: false,
-		interactivity: {
-			detectsOn: 'canvas',
-			events: {
-				onClick: {
-					enable: false,
-					mode: 'push'
-				},
-				onDiv: {
-					elementId: 'repulse-div',
-					enable: false,
-					mode: 'repulse'
-				},
-				onHover: {
-					enable: false,
-					mode: 'bubble',
-					parallax: {
-						enable: false,
-						force: 2,
-						smooth: 10
-					}
-				},
-				resize: true
-			},
-			modes: {
-				bubble: {
-					distance: 40,
-					duration: 2,
-					opacity: 8,
-					size: 6,
-					speed: 3
-				},
-				connect: {
-					distance: 80,
-					lineLinked: {
-						opacity: 0.3
-					},
-					radius: 60
-				},
-				grab: {
-					distance: 400,
-					lineLinked: {
-						opacity: 1
-					}
-				},
-				push: {
-					quantity: 4
-				},
-				remove: {
-					quantity: 2
-				},
-				repulse: {
-					distance: 200,
-					duration: 0.4
-				},
-				slow: {
-					active: false,
-					radius: 0,
-					factor: 1
-				}
-			}
-		},
+	const particlesConfig = {
+		detectRetina: true,
 		particles: {
 			color: {
 				value: ['#fff', '#bf95f9', '#ef9fbc']
