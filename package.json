@@ -18,7 +18,7 @@
 		"@commitlint/config-conventional": "^17.7.0",
 		"@fontsource/fira-mono": "^5.0.8",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.22.6",
+		"@sveltejs/kit": "https://gitpkg.now.sh/sveltejs/kit/packages/kit?gh-5689",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",

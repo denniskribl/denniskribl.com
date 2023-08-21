@@ -2623,10 +2623,9 @@
   dependencies:
     import-meta-resolve "^3.0.0"
 
-"@sveltejs/kit@^1.22.6":
+"@sveltejs/kit@https://gitpkg.now.sh/sveltejs/kit/packages/kit?gh-5689":
   version "1.22.6"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.22.6.tgz#74eb42eeda4b2b58502314ca6bf04fec0c48f91a"
-  integrity sha512-SDKxI/QpsReCwIn5czjT53fKlPBybbmMk67d317gUqfeORroBAFN1Z6s/x0E1JYi+04i7kKllS+Sz9wVfmUkAQ==
+  resolved "https://gitpkg.now.sh/sveltejs/kit/packages/kit?gh-5689#98fea1d2c107df395fdb7b672a05389afcca0cc6"
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.4.1"
     "@types/cookie" "^0.5.1"

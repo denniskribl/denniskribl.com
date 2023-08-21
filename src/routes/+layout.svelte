@@ -1,6 +1,6 @@
 <script>
 	import '$lib/global.css';
-	import { preparePageTransition } from '$lib/utils/page-transition.ts';
+	import { onNavigate } from '$app/navigation';
 	import Avatar from '../lib/components/Avatar.svelte';
 	import Navigation from '../lib/components/Navigation.svelte';
 	import { page } from '$app/stores';
@@ -9,7 +9,12 @@
 
 	const isMobile = useMediaQuery('(max-width: 600px)');
 
-	preparePageTransition();
+	onNavigate(() => {
+		if (!document.startViewTransition) return;
+		return new Promise((fulfil) => {
+			document.startViewTransition(() => new Promise(fulfil));
+		});
+	});
 
 	const activeTab = (path) => {
 		switch (path) {

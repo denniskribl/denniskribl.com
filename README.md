@@ -16,11 +16,6 @@ The website makes great use of:
 
 I've included transitions with the native [View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
 
-**TODO**:
-
-- Add preloading of links when onNavigation hook is available in SvelteKit. For now preloading is actively disabled as
-  transitions wouldn't work properly due to race conditions
-
 ## 📜 License
 
 MIT
