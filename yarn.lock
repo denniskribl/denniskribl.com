@@ -2350,21 +2350,7 @@
     "@smithy/types" "^2.1.0"
     tslib "^2.5.0"
 
-"@smithy/signature-v4@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-2.0.2.tgz#c1ec6d9485a72039060e9a8fe2c02e0afb9d7764"
-  integrity sha512-YMooDEw/UmGxcXY4qWnSXkbPFsRloluSvyXVT678YPDN/K2AS1GzKfRsvSU7fbccOB4WF8MHZf2UqcRGEltE3Q==
-  dependencies:
-    "@smithy/eventstream-codec" "^2.0.2"
-    "@smithy/is-array-buffer" "^2.0.0"
-    "@smithy/types" "^2.1.0"
-    "@smithy/util-hex-encoding" "^2.0.0"
-    "@smithy/util-middleware" "^2.0.0"
-    "@smithy/util-uri-escape" "^2.0.0"
-    "@smithy/util-utf8" "^2.0.0"
-    tslib "^2.5.0"
-
-"@smithy/signature-v4@^2.0.4":
+"@smithy/signature-v4@^2.0.0", "@smithy/signature-v4@^2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-2.0.4.tgz#97d553b9e2a5355b12bdbc0dc97031f04b1fcf42"
   integrity sha512-y2xblkS0hb44QJDn9YjPp5aRFYSiI7w0bI3tATE3ybOrII2fppqD0SE3zgvew/B/3rTunuiCW+frTD0W4UYb9Q==
@@ -3196,23 +3182,7 @@ aws-iot-device-sdk@^2.2.12:
     mqtt "4.2.8"
     websocket-stream "^5.5.2"
 
-aws-sdk@^2.1326.0:
-  version "2.1432.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1432.0.tgz#f33981d7299b55cc79421901634aeb8d2ce16820"
-  integrity sha512-bnPilJ0YkFOHGL2yYSnpd/oMnsDicGQKmE479vDn/AVcKhRswcg893DTqxrkkuuylEIcIIPPHBqX+IlwNv1zqw==
-  dependencies:
-    buffer "4.9.2"
-    events "1.1.1"
-    ieee754 "1.1.13"
-    jmespath "0.16.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    util "^0.12.4"
-    uuid "8.0.0"
-    xml2js "0.5.0"
-
-aws-sdk@^2.1432.0:
+aws-sdk@^2.1326.0, aws-sdk@^2.1432.0:
   version "2.1438.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1438.0.tgz#6bc9b3ef716b47ed78d94da5234692ec2dc73ff5"
   integrity sha512-xessrWtoMD2icLPnm4KlTl3tiudJlYh3RtqBx+BggBc3ie9l98za1tSB4NunabTEbBUj4YMmzN1lpMsNEZ0NGw==
@@ -6788,10 +6758,10 @@ sst-aws-cdk@2.91.0:
   optionalDependencies:
     fsevents "2.3.2"
 
-sst@2.24.7:
-  version "2.24.7"
-  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.7.tgz#a06320d8e7d3c9b3b5db6546d969a9f5028d46f5"
-  integrity sha512-GT2oBnABV0NSF+YPgbtBdCRoTO1myuexKZ+lwJN5CL5ANIPCCfxFKNrqghvp/g4YBr/E2Ti2s6VYPIrPddhOmQ==
+sst@2.24.12:
+  version "2.24.12"
+  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.12.tgz#0648e38f623f83b7998e59ed2ba7d52f4e770e3f"
+  integrity sha512-R6k0KW+uQBFfslm088iFBZAvD9Gi2hx8N7Gsfp6W0BE3Cj5CxzfXsiebqPTIAu1lOj+pheWfuVjR/GKZj5nazw==
   dependencies:
     "@aws-cdk/aws-apigatewayv2-alpha" "^2.91.0-alpha.0"
     "@aws-cdk/aws-apigatewayv2-authorizers-alpha" "^2.91.0-alpha.0"
