@@ -8,7 +8,7 @@
 	const experience: Experience[] = [
 		{
 			title: 'Cloud Site Reliability Engineer',
-			at: '???',
+			at: 'Scalable Capital',
 			duration: '2023 - present'
 		},
 		{
