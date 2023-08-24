@@ -1,7 +1,9 @@
 name: E2E tests PR env
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
+  workflow_run:
+    workflows: ["deploy pr environment"]
+    types:
+      - completed
 jobs:
   test:
     timeout-minutes: 60
