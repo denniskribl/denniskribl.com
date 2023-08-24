@@ -29,7 +29,7 @@
 	];
 </script>
 
-<div class="w-full overflow-y-auto">
+<div class="w-full overflow-y-auto" data-testid="experience">
 	<h1 class="lg:text-5xl text-2xl font-bold">Experience</h1>
 	<ul class="steps steps-vertical py-6">
 		{#each experience as exp}

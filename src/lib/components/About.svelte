@@ -11,7 +11,7 @@
 	};
 </script>
 
-<div class="w-full">
+<div class="w-full" data-testid="about">
 	<h1 class="lg:text-5xl text-2xl font-bold">About me</h1>
 	<ul class="list-disc py-6 ml-6 lg:text-2xl text-xl">
 		<li>{age()} years old</li>
