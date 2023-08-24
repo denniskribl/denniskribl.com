@@ -11,12 +11,15 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"sst:deploy": "sst deploy",
-		"sst:dev": "sst dev"
+		"sst:dev": "sst dev",
+		"e2e:local": "ENVIRONMENT=local yarn playwright test",
+		"e2e": "yarn playwright test"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"@fontsource/fira-mono": "^5.0.8",
+		"@playwright/test": "^1.37.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.22.6",
 		"@types/cookie": "^0.5.1",
@@ -27,6 +30,7 @@
 		"constructs": "10.2.69",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-playwright": "^0.15.3",
 		"eslint-plugin-svelte": "^2.30.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
