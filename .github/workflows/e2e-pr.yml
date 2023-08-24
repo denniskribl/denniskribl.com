@@ -1,7 +1,7 @@
 name: E2E tests PR env
 on:
   workflow_run:
-    workflows: ["deploy pr environment"]
+    workflows: ['deploy pr environment']
     types:
       - completed
 jobs:
