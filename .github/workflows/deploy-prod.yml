@@ -6,8 +6,6 @@ on:
 jobs:
   deploy-prod:
     runs-on: ubuntu-latest
-    env:
-      SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
     environment:
       name: prod
       url: https://denniskribl.com
