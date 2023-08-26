@@ -5,6 +5,8 @@ on:
 jobs:
   deploy-pr-env:
     runs-on: ubuntu-latest
+    env:
+      SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
     environment:
       name: pr-${{ github.event.number }}
       url: https://pr-${{ github.event.number }}.denniskribl.com
