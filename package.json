@@ -49,6 +49,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sentry/sveltekit": "^7.64.0",
 		"@tailwindcss/typography": "^0.5.9",
 		"daisyui": "^3.5.1"
 	}
