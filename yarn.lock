@@ -1916,6 +1916,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@lukeed/ms@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@lukeed/ms/-/ms-2.0.1.tgz#3c2bbc258affd9cc0e0cc7828477383c73afa6ee"
+  integrity sha512-Xs/4RZltsAL7pkvaNStUQt7netTkyxrS0K+RILcVr3TRMS/ToOg4I6uNfhB9SlGsnWBym4U+EaXq0f0cEMNkHA==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -3065,7 +3070,7 @@ arrify@^1.0.1:
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==
 
-asn1.js@^5.3.0:
+asn1.js@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-5.4.1.tgz#11a980b84ebb91781ce35b0fdc2ee294e3783f07"
   integrity sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==
@@ -4404,14 +4409,15 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fast-jwt@^1.6.1:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-1.7.2.tgz#23b4911adc814464c9b6e64a5f9f60b608e6be8e"
-  integrity sha512-OEInypGXJhtURzq9GbFM5KaALUu9+4IV3kJEbWPuqOBN5JBe7A51Tx0CaQYHGC9GNfZnr5npA0lCIMaWiZmz/A==
+fast-jwt@^3.1.1:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-3.2.0.tgz#20fcc8f7cbe347901e83549d6550eb34c97396e3"
+  integrity sha512-RELkgZpWwu5BsUgylCjuu9RBwg3mofXd1bVzqD3V3aH4uew2bF2A+nYp1sZbmvPGf/k7sLBnKuzpQA00CM+gnA==
   dependencies:
-    asn1.js "^5.3.0"
+    "@lukeed/ms" "^2.0.1"
+    asn1.js "^5.4.1"
     ecdsa-sig-formatter "^1.0.11"
-    mnemonist "^0.39.0"
+    mnemonist "^0.39.5"
 
 fast-levenshtein@^2.0.6:
   version "2.0.6"
@@ -5665,7 +5671,7 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-mnemonist@^0.39.0:
+mnemonist@^0.39.5:
   version "0.39.5"
   resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.39.5.tgz#5850d9b30d1b2bc57cc8787e5caa40f6c3420477"
   integrity sha512-FPUtkhtJ0efmEFGpU14x7jGbTB+s18LrzRL2KgoWz9YvcY3cPomz8tih01GbHwnGk/OmkOKfqd/RAQoc8Lm7DQ==
@@ -6778,10 +6784,10 @@ sst-aws-cdk@2.91.0:
   optionalDependencies:
     fsevents "2.3.2"
 
-sst@2.24.12:
-  version "2.24.12"
-  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.12.tgz#0648e38f623f83b7998e59ed2ba7d52f4e770e3f"
-  integrity sha512-R6k0KW+uQBFfslm088iFBZAvD9Gi2hx8N7Gsfp6W0BE3Cj5CxzfXsiebqPTIAu1lOj+pheWfuVjR/GKZj5nazw==
+sst@2.24.17:
+  version "2.24.17"
+  resolved "https://registry.yarnpkg.com/sst/-/sst-2.24.17.tgz#87db9f350d9e2d4288d2ff94a0056bd1b6dca061"
+  integrity sha512-18claKpZiah1EL2yGvm+acL+XBRxR7YkHESv49cqlMI1zGSejYNSlPaDV8K+cFDbnrztkkZYXGZB6Av8r0/dLg==
   dependencies:
     "@aws-cdk/aws-apigatewayv2-alpha" "^2.91.0-alpha.0"
     "@aws-cdk/aws-apigatewayv2-authorizers-alpha" "^2.91.0-alpha.0"
@@ -6829,7 +6835,7 @@ sst@2.24.12:
     dotenv "^16.0.3"
     esbuild "0.18.13"
     express "^4.18.2"
-    fast-jwt "^1.6.1"
+    fast-jwt "^3.1.1"
     get-port "^6.1.2"
     glob "^8.0.3"
     graphql "*"
