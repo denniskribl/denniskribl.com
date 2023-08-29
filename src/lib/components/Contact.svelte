@@ -1,4 +1,4 @@
-<div class="w-full">
+<div class="w-full" data-testid="contact">
 	<h1 class="lg:text-5xl text-2xl font-bold">Contact</h1>
 	<div class="py-6 flex gap-4">
 		<a href="mailto:denniskribl@gmail.com" class="btn btn-circle btn-outline btn-secondary">
