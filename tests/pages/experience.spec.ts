@@ -16,7 +16,7 @@ test.describe('experience page', () => {
 	test('has experience items', async ({ page }) => {
 		const expectedItems = [
 			{
-				at: '???',
+				at: 'Scalable Capital',
 				title: 'Cloud Site Reliability Engineer',
 				duration: '(2023 - present)'
 			},
