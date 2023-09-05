@@ -31,7 +31,7 @@
 		"eslint": "^8.48.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-playwright": "^0.16.0",
-		"eslint-plugin-svelte": "^2.30.0",
+		"eslint-plugin-svelte": "^2.33.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
 		"postcss": "^8.4.28",
