@@ -7057,10 +7057,10 @@ svelte-hmr@^0.15.3:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
 
-svelte-kit-sst@2.24.17:
-  version "2.24.17"
-  resolved "https://registry.yarnpkg.com/svelte-kit-sst/-/svelte-kit-sst-2.24.17.tgz#2f8065daf9c2444188cc6931bf508faa556b26b8"
-  integrity sha512-D0XqQ8DUWqx4F0TujHq9VshVXpflRSWhq50iQitxyt2tvDaZm28Ap2yNePYZbIZT/PzGK1A2/RABVzQdoMRrZQ==
+svelte-kit-sst@2.24.24:
+  version "2.24.24"
+  resolved "https://registry.yarnpkg.com/svelte-kit-sst/-/svelte-kit-sst-2.24.24.tgz#59df09ead406828edd91c02bf34c218fe7e713ea"
+  integrity sha512-/GLZlKQh4NbiSmvc+xdsrfktfBq7gk9wzdl2ato68DLS4SB2wC+0SiMrBQdoS4l0nihdt16sjRgXvh3hrEsNvQ==
 
 svelte-particles@^2.12.0:
   version "2.12.0"
