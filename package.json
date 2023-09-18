@@ -50,7 +50,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.9",
-		"daisyui": "^3.5.1",
+		"daisyui": "^3.7.5",
 		"svelte-breakpoints": "^0.2.0",
 		"svelte-particles": "^2.12.0",
 		"tsparticles-slim": "^2.12.0"
