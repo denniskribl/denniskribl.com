@@ -27,7 +27,7 @@
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.15",
 		"aws-cdk-lib": "2.92.0",
-		"constructs": "10.2.69",
+		"constructs": "10.3.0",
 		"eslint": "^8.48.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-playwright": "^0.16.0",
