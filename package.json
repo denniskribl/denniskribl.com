@@ -40,7 +40,7 @@
 		"sst": "2.24.24",
 		"svelte": "^4.2.0",
 		"svelte-check": "^3.5.0",
-		"svelte-kit-sst": "2.24.24",
+		"svelte-kit-sst": "2.34.7",
 		"tailwindcss": "^3.3.3",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
